@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/chezzdev/MagicKit.git',
                  :tag => '0.0.4' }
 
-  s.ios.deployment_target = '5.0'
-  s.osx.deployment_target = '10.7'
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
   s.resource = 'magic.mgc'  
   s.source_files = 'libmagic/*.{h,c}', '*.{h,m}'
   s.exclude_files = "libmagic/strlcpy.c","libmagic/strlcat.c"
